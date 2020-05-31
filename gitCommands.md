@@ -273,6 +273,7 @@ $ git add b.txt    # new file
 $ git rm c.txt     # delete old file c.txt
 $ git mv c.txt changeNameC.txt		# change file name "c.txt" to "changeNameC.txt"
 $ git commit
+$ git commit -m "this is first commit for README.md"
 ```
 
 Or, prepare and create the commit in one step:
