@@ -18,6 +18,28 @@ $ reset						# clear Git Bash window
 
 
 ## 1 Git Configuration
+配置github的ssh密钥:
+
+(1)打开Git Bash查看电脑上是否已经存在SSH密钥：
+输入 
+```Git
+cd ~/.ssh；
+```Git
+(2)创建新的ssh key:
+输入 
+```Git
+ssh-keygen -t rsa -C "your_email@youremail.com" 
+```Git
+一路按Enter直至Bash不再询问，会在 C:\Users\0\.ssh目录生产两个文件：id_rsa和id_rsa.pub；
+
+（3）复制ssh key到github
+用记事本打开.ssh目录下的id_rsa.pub文件，复制里面的内容，登陆GitHub账号，依次点击Click “Account Settings” > Click “SSH Keys” > Click “Add SSH key”，自定义输入ssh key的名称，然后粘贴id_rsa.pub中的内容；（打开github网站，点击右上角扳手图标，然后点击左边菜单的 ssh key， 然后右边页面的 add ssh key，将复制的内容粘贴到github的key中，title可以不填，直接保存即可。）
+
+（4）测试 ssh连接github：
+输入
+```Git
+ssh -T git@github.com，出现success表示连接成功
+```Git
 
 ### 1.1 Introduce yourself to Git
 
