@@ -24,12 +24,12 @@ $ reset						# clear Git Bash window
 输入 
 ```Git
 cd ~/.ssh；
-```Git
+```
 (2)创建新的ssh key:
 输入 
 ```Git
 ssh-keygen -t rsa -C "your_email@youremail.com" 
-```Git
+```
 一路按Enter直至Bash不再询问，会在 C:\Users\0\.ssh目录生产两个文件：id_rsa和id_rsa.pub；
 
 （3）复制ssh key到github
@@ -39,7 +39,7 @@ ssh-keygen -t rsa -C "your_email@youremail.com"
 输入
 ```Git
 ssh -T git@github.com，出现success表示连接成功
-```Git
+```
 
 ### 1.1 Introduce yourself to Git
 
