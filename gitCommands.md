@@ -23,7 +23,7 @@ $ reset						# clear Git Bash window
 
 ```Git
 $ git config --global user.name "GUO-Liping"
-$ git config --global user.email liping0_0@mu.swjtu.edu.cn
+$ git config --global user.email liping0_0@my.swjtu.edu.cn
 ```
 
 ### 1.2 Open Git Manual Page in Browser
