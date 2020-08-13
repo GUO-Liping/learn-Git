@@ -52,6 +52,7 @@ $ git config --global user.email liping0_0@my.swjtu.edu.cn
 
 ```Git
 $ git help log
+$ git remote set-url origin git@github.com:lut/EvolutionApp.git
 ```
 
 
